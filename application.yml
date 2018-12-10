@@ -1,16 +1,16 @@
 spring:
     profiles:
         active:
-	-dev
+        -dev
 ---
 spring
-	profiles: dev # 开发环境
-	application:
+        profiles: dev # 开发环境
+        application:
 		name:项目名
 ---
 spring:
-	profiles: test #测试环境
-	application: 
-		name: 项目名
+        profiles: test #测试环境
+        application: 
+                name: 项目名
 
 # 一定要保存为utf-8编码格式
