@@ -6,7 +6,7 @@ spring:
 spring
         profiles: dev # 开发环境
         application:
-		name:项目名
+                name:项目名
 ---
 spring:
         profiles: test #测试环境
