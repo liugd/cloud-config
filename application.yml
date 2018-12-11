@@ -6,11 +6,11 @@ spring:
 spring
         profiles: dev # 开发环境
         application:
-                name:项目名
+                name: dev1
 ---
 spring:
         profiles: test #测试环境
         application: 
-                name: 项目名
+                name: test1
 
 # 一定要保存为utf-8编码格式
