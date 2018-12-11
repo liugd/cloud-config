@@ -3,14 +3,14 @@ spring:
         active:
         -dev
 ---
-spring
-        profiles: dev # 开发环境
-        application:
-                name: dev1
+spring:
+    profiles: dev # 开发环境
+    application:
+        name: dev1
 ---
 spring:
-        profiles: test #测试环境
-        application: 
-                name: test1
+    profiles: test #测试环境
+    application: 
+        name: test1
 
 # 一定要保存为utf-8编码格式
